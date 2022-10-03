@@ -9,7 +9,8 @@ import javax.swing.table.DefaultTableModel;
 
 public class GenerateBill extends JFrame{
 
-   JTextField food,quantity;
+   private static final long serialVersionUID = 1L;
+JTextField food,quantity;
    String[] columnNames = {"Food Name",
                         "Quantity",
                         "Price"

@@ -4,7 +4,8 @@ import javax.swing.*;
 
 public class Frame1 extends JFrame{
 
-    JLabel idLabel;
+    private static final long serialVersionUID = 1L;
+	JLabel idLabel;
     JLabel passLabel;
 	JLabel background;
 	JLabel headerLabel;
@@ -95,7 +96,8 @@ public class Frame1 extends JFrame{
 
 
 
-   public void submitActionPerformed(java.awt.event.ActionEvent evt){
+   @SuppressWarnings("unlikely-arg-type")
+public void submitActionPerformed(java.awt.event.ActionEvent evt){
 
    if(id.getText().equals("admin") && pass.getPassword().equals("admin")){
 
